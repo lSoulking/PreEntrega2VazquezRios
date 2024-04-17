@@ -1,0 +1,14 @@
+@import "./utilities/maps";
+
+@import "./base/reset";
+@import "./base/typografias";
+
+@import "./components/card";
+@import "./utilities/mixins";
+@import "./utilities/variables";
+
+@import "./layouts/header";
+@import "./layouts/main-index";
+@import "./layouts/footer";
+@import "./layouts/mediaQuerry/media520-900.scss";
+@import "./layouts/mediaQuerry/media320-520.scss";

@@ -1,0 +1,19 @@
+mixin center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin text-justify {
+  text-align: justify;
+}
+
+@mixin linear-gradient($start-color, $end-color) {
+  background: linear-gradient(to bottom, $start-color, $end-color);
+}
+
+@mixin background-image($url) {
+  background-image: url($url);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
