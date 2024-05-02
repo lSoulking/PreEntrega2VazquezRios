@@ -16,6 +16,16 @@
     height: 164px;
   }
 
+  header.header-container-malecon {
+    height: 164px;
+  }
+  header.header-container-island {
+    height: 164px;
+  }
+  header.header-container-balandra {
+    height: 164px;
+  }
+
   div.text-box {
     width: 50%;
     height: auto;
@@ -23,7 +33,7 @@
   }
 
   p.text-box-shark {
-    font-size: 10px;
+    font-size: 8.5px;
   }
 
   h1.Header-title {
@@ -74,7 +84,11 @@
   }
 
   img.item-main-alternative-shark {
-    height: 270px;
+    height: 300px;
+  }
+
+  img.item-main-shark {
+    height: 300px;
   }
 
   p.subtitle-main {
@@ -107,5 +121,9 @@
 
   img.icon-footer {
     height: 26px;
+  }
+
+  a.text-contacto {
+    font-size: 10px;
   }
 }

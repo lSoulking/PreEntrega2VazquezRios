@@ -1,9 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta property="og:title" content="La paz turismo" />
+    <meta property="og:site_name" content="www.lapazturismo.com" />
+    <meta property="og:url" content="www" />
+    <meta property="og:description" content="" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://imgs.search.brave.com/KaCIjNsZm_NezU3kwIO53T1AmN3_peLoPw11N_d8cRk/rs:fit:860:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy85/LzlkL0xhcGF6YmFq/YWMuanBn"
+    />
+    <meta
+      name="description"
+      content="Informacion sobre puntos de interes de la paz baja california sur"
+    />
+    <meta name="author" content="AlanVazquez" />
+    <meta name="copyright" content="ServiciosTuristicosVazquez" />
+    <title>La paz</title>
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="shortcut icon" href="./assets/icon,x.png" type="image/x-icon" />
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>La Paz Turismo</title>
+    <link rel="stylesheet" href="../css/style.css" />
   </head>
-  <body></body>
+  <header>
+    <nav class="navbar-container">
+      <a href="../index.html" class="navbar-title">La Paz</a>
+      <ul class="navbar-options-container">
+        <li>
+          <a href="./tiburon.html" class="navbar-link">Tiburon Ballena</a>
+        </li>
+        <li>
+          <a href="./isla-espiritu-santo.html" class="navbar-link"
+            >Espiritu Santo</a
+          >
+        </li>
+        <li>
+          <a href="./balandra.html" class="navbar-link">Balandra</a>
+        </li>
+        <li><a href="./malecon.html" class="navbar-link">Malecon</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <body>
+    <main>
+      <div class="contact_form">
+        <div class="formulario">
+          <h2>Formulario de contacto</h2>
+          <h3>
+            Nos interesa tu opinion, deja tus preguntas y dudas o opiniones,
+            gracias!
+          </h3>
+
+          <form action="submeter-formulario.php" method="post">
+            <p>
+              <label for="nombre" class="colocar_nombre"
+                >Nombre
+                <span class="obligatorio">*</span>
+              </label>
+              <input
+                type="text"
+                name="introducir_nombre"
+                id="nombre"
+                required="obligatorio"
+                placeholder="Escribe tu nombre"
+              />
+            </p>
+
+            <p>
+              <label for="email" class="colocar_email"
+                >Email
+                <span class="obligatorio">*</span>
+              </label>
+              <input
+                type="email"
+                name="introducir_email"
+                id="email"
+                required="obligatorio"
+                placeholder="Escribe tu Email"
+              />
+            </p>
+
+            <p>
+              <label for="telefone" class="colocar_telefono">Teléfono </label>
+              <input
+                type="tel"
+                name="introducir_telefono"
+                id="telefono"
+                placeholder="Escribe tu teléfono"
+              />
+            </p>
+
+            <p>
+              <label for="website" class="colocar_website">Sitio web </label>
+              <input
+                type="url"
+                name="introducir_website"
+                id="website"
+                placeholder="Escribe la URL de tu web"
+              />
+            </p>
+
+            <p>
+              <label for="asunto" class="colocar_asunto"
+                >Asunto
+                <span class="obligatorio">*</span>
+              </label>
+              <input
+                type="text"
+                name="introducir_asunto"
+                id="assunto"
+                required="obligatorio"
+                placeholder="Escribe un asunto"
+              />
+            </p>
+
+            <p>
+              <label for="mensaje" class="colocar_mensaje"
+                >Mensaje
+                <span class="obligatorio">*</span>
+              </label>
+              <textarea
+                name="introducir_mensaje"
+                class="texto_mensaje"
+                id="mensaje"
+                required="obligatorio"
+                placeholder="Deja aquí tu comentario..."
+              ></textarea>
+            </p>
+
+            <button type="submit" name="enviar_formulario" id="enviar">
+              <p>Enviar</p>
+            </button>
+
+            <p class="aviso">
+              <span class="obligatorio"> * </span>los campos son obligatorios.
+            </p>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>

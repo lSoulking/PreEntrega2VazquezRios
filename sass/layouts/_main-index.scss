@@ -121,27 +121,6 @@ $itemMain: (
   border-radius: 4px;
 }
 
-.item-main-alternative-island {
-  height: auto;
-  width: 48%;
-  object-fit: cover;
-  border-radius: 4px;
-}
-
-.item-main-alternative-balandra {
-  height: auto;
-  width: 48%;
-  object-fit: cover;
-  border-radius: 4px;
-}
-
-.item-main-alternative-malecon {
-  height: auto;
-  width: 48%;
-  object-fit: cover;
-  border-radius: 4px;
-}
-
 .text-box {
   height: 29vw;
   display: flex;
@@ -163,13 +142,6 @@ $itemMain: (
   font-size: 18px;
 }
 
-.text-box-shark,
-.text-box-island,
-.text-box-balandra,
-.text-box-malecon {
-  @extend .text-box-shark;
-}
-
 .subtitle-main {
   font-size: 20px;
 }
@@ -181,4 +153,97 @@ $itemMain: (
 
 .text-longer {
   text-align: justify;
+}
+
+.contact_form {
+  width: 460px;
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #fbfbfb;
+  padding-left: 30px;
+}
+
+input {
+  background-color: #fbfbfb;
+  width: 408px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #4485ab;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  background-color: #fbfbfb;
+  width: 405px;
+  height: 150px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #4c8dee;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  padding-top: 15px;
+}
+
+label {
+  display: block;
+  float: center;
+}
+
+button {
+  height: 45px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  background-color: #969ee9;
+  border-color: #6d76c7;
+  border-style: solid;
+  border-radius: 10px;
+  width: 420px;
+  cursor: pointer;
+}
+
+button p {
+  color: #fff;
+}
+
+span {
+  color: #8870df;
+}
+
+.aviso {
+  font-size: 13px;
+  color: #0e0e0e;
+}
+
+::-webkit-input-placeholder {
+  color: #a8a8a8;
+}
+
+::-webkit-textarea-placeholder {
+  color: #a8a8a8;
+}
+
+.formulario input:focus {
+  outline: 0;
+  border: 1px solid #97d848;
+}
+
+.formulario textarea:focus {
+  outline: 0;
+  border: 1px solid #97d848;
+}
+
+body.contacto.html {
+  background-color: #0e0e0e;
 }
